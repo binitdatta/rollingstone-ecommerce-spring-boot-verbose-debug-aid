@@ -1,4 +1,5 @@
 # rollingstone-ecommerce-spring-boot-verbose-debug-aid
+# Caution : This is Work in Progress even though the demo defenitely works. Working on to keep the code concise, tight, secure and trying to let the unassmuming developer code without understanding much of these but the feature still works.
 
 # This multiple applications in this repository is added to demonstrate a debug aid called verbose. 
 
