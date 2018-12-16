@@ -27,7 +27,7 @@
 
 ## 8. Logs do not help much as production logs do not contain debug messages and the Developer starts to debug manually within his/her IDE using userdata.
 
-# 9. Step number 9 takes time......, goes in a loop, almost all downstream system leads claim through email / comments in ServiceThen that the issue certainly does not belong to them, email chains starts to make rounds between different systems / applications, onshore / offshore and other shores.
+# 9. Step number 9 takes time......, goes in a loop, almost all downstream system leads claim through email / comments in ServiceThen that the issue certainly does not belong to them at all (trust ne, speaking from personal experience :) ) , email chains starts to make rounds between different systems / applications, onshore / offshore and other shores.
 
 ## 10. If this happens with a critical API where the system / company is actually losing money by the hour, developers spend hours / days to fix and the company still looses huge sums. The immediate impact is that engineers are speding time not by adding new features but losing sleep trying to fix a non-existing issue. That is a double loss of money and development hours that could have been used productively adding features customers want, features competitors do not have etc. Losing time like these is thus a strict no-no for smart teams.
 
