@@ -5,9 +5,9 @@
 # Purpose : Debug Downstream Third party APIs instantly.
 
 # Scenario : A number of applications have to call other downstream third party internal / external APIs to get data from legacy systems. 
-A very typical patterns can been seen in client JavaScript applications, that has a proxy / API gateway type of backend. This backend talks
-to the numerous other third party internal / external APIs, on behalf of the front end application. As the front end application only know this 
-API gateway backend, debugging this pair app of front end / API gateway backend sometimes becomes very cumbersome without special tools. 
+A very typical patterns can be seen in client JavaScript applications, that has a proxy / API gateway type of backend. This backend talks
+to the numerous other third party internal / external APIs, on behalf of the front end application. As the front end application only knows this 
+API gateway backend, debugging this pair app of front end / API gateway backend sometimes becomes very time consuming (often with # financial impact) and cumbersome without special tools. 
 
 Following is a typical scnerio when one or more production issues are reported for these pair of  front end / API gateway backend applications
 
@@ -21,18 +21,16 @@ Following is a typical scnerio when one or more production issues are reported f
 
 ## 5. Dev Team Manager gets notified by the Tech Support through Email / Self checks.
 
-## 6. Dev Team manager own ticket and asigns the ticket to a Developer
+## 6. Dev Team manager owns ticket and assigns the ticket to an Engineer
 
-## 7. The Developer looks at the request and searches either Splunk Logs / ELK Logs to retreive past log data, hoping the incident took
-place within the last so many days so logs are available
+## 7. The Engineer looks at the request and searches either Splunk Logs / ELK Logs to retreive past log data, hoping the incident took
+## place within the last so many days so logs are available
 
-## 8. Logs do not help much as production logs do not have contain debug messages and the Developer starts to debug manually retreiving 
-userdata.
+## 8. Logs do not help much as production logs do not contain debug messages and the Developer starts to debug manually within his/her IDE using userdata.
 
-## 9. Step number 9 takes time......, email chains between different systems / applications, onshore / offshore and other shores.
+# 9. Step number 9 takes time......, goes in a loop, almost all downstream system leads claim through email / comments in ServiceThen that the issue certainly does not belong to them, email chains starts to make rounds between different systems / applications, onshore / offshore and other shores.
 
-## 10. If this happens with a critical API where the system / company is actually losing money by the hour, developers spend hours / days to fix and 
-the company still looses huge sums.
+## 10. If this happens with a critical API where the system / company is actually losing money by the hour, developers spend hours / days to fix and the company still looses huge sums. The immediate impact is that engineers are speding time adding new features but losing sleep trying to fix a non-existing issue. That is a double loss of money and development hours that could have been used productively adding features customers want, features competitors do not have etc. Losing time like these is thus a string no-no for smart teams.
 
 # Alternative
 
