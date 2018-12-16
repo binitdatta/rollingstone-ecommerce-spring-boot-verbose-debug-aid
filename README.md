@@ -4,7 +4,7 @@
 
 # Purpose : Debug Downstream Third party APIs instantly.
 
-# Scnario : A number of applications have to call other downstream third party internal / external APIs to get data from legacy systems. 
+# Scenario : A number of applications have to call other downstream third party internal / external APIs to get data from legacy systems. 
 A very typical patterns can been seen in client JavaScript applications, that has a proxy / API gateway type of backend. This backend talks
 to the numerous other third party internal / external APIs, on behalf of the front end application. As the front end application only know this 
 API gateway backend, debugging this pair app of front end / API gateway backend sometimes becomes very cumbersome without special tools. 
