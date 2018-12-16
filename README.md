@@ -33,8 +33,7 @@
 
 # Alternative
 
-## 1. During design / development think about this kind of situations and add tools / aids that might instantly help pin point
-the error and if that error is coming from a downsteam system, fixing effort can quickly be routed to that system.
+## 1. During design / development think about this kind of situations and add tools / aids that might instantly help pin point  the error and if that error is coming from a downsteam system, fixing effort can quickly be routed to that system.
 
 ## 2. How this works is by adding an optional verbose parameter to REST APIs. With that verbose parameter present, APIs will respond normally  but include raw responses from other APIs they called helping instant debugging of which system is responsible for the error. This repository demonstrates that situation with a few APIs.
 
