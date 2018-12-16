@@ -41,3 +41,47 @@ the error and if that error is coming from a downsteam system, fixing effort can
 but include raw responses from other APIs they called helping instant debugging of which system is responsible for the error. This repository demonstrates 
 that situation with a few APIs.
 
+#Process
+
+#1. git clone https://github.com/binitdatta/rollingstone-ecommerce-spring-boot-verbose-debug-aid.git
+
+#2. cd rollingstone-ecommerce-eureka-service-discovery
+
+#3. mvn clean install
+
+#4. java -jar target\rollingstone-ecommerce-eureka-service-discovery-1.0.jar
+
+#5. cd ..
+
+#6. cd rollingstone-ecommerce-remote-config-service
+
+#7. gradle clean build
+
+#8. java -jar build\libs\rollingstone-ecommerce-remote-config-service-1.0.jar
+
+#9. cd ..
+
+#10. cd rollingstone-ecommerce-account-api
+
+#11. gradle clean build
+
+#12. java -jar -Dspring.profiles.active=mysql build\libs\rollingstone-ecommerce-account-api-1.0.jar
+
+#13. cd ..
+
+#14. cd rollingstone-ecommerce-user-api
+
+#15. gradle clean build
+
+#16. java -jar -Dspring.profiles.active=mysql build\libs\rollingstone-ecommerce-user-api-1.0.jar
+
+#17. cd rollingstone-ecommerce-spring-boot-resttemplate-client
+
+#18. gradle clean build
+
+#19. java -jar build/libs/rollingstone-ecommerce-spring-boot-resttemplate-client.jar
+
+#20. http://localhost:8080//account-and-user/verbose/1 and no debug shoud come
+
+#31. http://localhost:8080//account-and-user/verbose/1?verbose=true
+
