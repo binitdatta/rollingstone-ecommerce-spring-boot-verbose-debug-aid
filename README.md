@@ -1,18 +1,18 @@
 # rollingstone-ecommerce-spring-boot-verbose-debug-aid
-# Caution : This is Work in Progress even though the demo defenitely works. Working on to keep the code concise, tight, secure and trying to let the unassmuming developer code without understanding much of these but the feature still works.
+# Caution : This is Work in Progress even though the demo defenitely works. I am working on to keep the code concise, tight, secure and trying to let the unassmuming developer code, without understanding much of these but the feature still works.
 
 # This multiple applications in this repository is added to demonstrate a debug aid called verbose. 
 
 # Purpose : Debug Downstream Third party APIs instantly.
 
 # Scenario : A number of applications have to call other downstream third party internal / external APIs to get data from legacy systems. 
-## A very typical pattern can be seen in client JavaScript applications, that has a proxy / API gateway type of backend. This backend talks to the numerous other third party internal / external APIs, on behalf of the front end application. As the front end application only knows this API gateway backend, debugging this pair app of front end / API gateway backend sometimes becomes very time consuming (often with # financial impact) and cumbersome without special tools. 
+## A very typical pattern can be seen in client JavaScript applications, that has a proxy / API gateway type of backend. This backend talks to the numerous other third party internal / external APIs, on behalf of the front end application. As the front end application only knows this API gateway backend, debugging this pair app of front end / API gateway backend sometimes becomes very time consuming (often with # financial impacts) and cumbersome without special tools. 
 
-## Following is a typical scnerio when one or more production issues are reported for these pair of  front end / API gateway backend applications
+## Following is a typical scenario when one or more production issues are reported for these pair of  front end / API gateway backend applications
 
 ## 1. Customers complain and call the customer Support
 
-## 2. Tech Support log support request with 24/7 Tech Support
+## 2. Customer Support log support request with 24/7 Tech Support
 
 ## 3. Tech Support fails to resolve the issue
 
@@ -25,9 +25,9 @@
 ## 7. The Engineer looks at the request and searches either Splunk Logs / ELK Logs to retreive past log data, hoping the incident took
 ## place within the last so many days so logs are available
 
-## 8. Logs do not help much as production logs do not contain debug messages and the Developer starts to debug manually within his/her IDE using userdata.
+## 8. Logs do not help much as production logs do not contain debug messages and the Developer starts to debug manually within his/her IDE using user data.
 
-# 9. Step number 9 takes time......, goes in a loop, almost all downstream system leads claim through email / comments in ServiceThen that the issue certainly does not belong to them at all (trust ne, speaking from personal experience :) ) , email chains starts to make rounds between different systems / applications, onshore / offshore and other shores.
+# 9. Step number 9 takes time......, goes in a loop, almost all downstream system leads claim through email / comments in ServiceNow that the issue certainly does not belong to them at all (trust ne, speaking from personal experience :), email chains starts to make rounds between different systems / applications, onshore / offshore.
 
 ## 10. If this happens with a critical API where the system / company is actually losing money by the hour, developers spend hours / days to fix and the company still looses huge sums. The immediate impact is that engineers are speding time not by adding new features but losing sleep trying to fix a non-existing issue. That is a double loss of money and development hours that could have been used productively adding features customers want, features competitors do not have etc. Losing time like these is thus a strict no-no for smart teams.
 
@@ -35,7 +35,7 @@
 
 ## 1. During design / development think about this kind of situations and add tools / aids that might instantly help pin point  the error and if that error is coming from a downsteam system, fixing effort can quickly be routed to that system.
 
-## 2. How this works is by adding an optional verbose parameter to REST APIs. With that verbose parameter present, APIs will respond normally  but include raw responses from other APIs they called helping instant debugging of which system is responsible for the error. This repository demonstrates that situation with a few APIs.
+## 2. How this works is by adding an optional verbose parameter to critical REST APIs. With that verbose parameter present, APIs will respond normally  but include raw responses from other APIs they called helping instant debugging of which system is responsible for the error. This repository demonstrates that situation with a few APIs.
 
 # Prequisitites
 
