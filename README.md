@@ -16,7 +16,7 @@
 
 ## 3. Tech Support fails to resolve the issue
 
-## 4. Tech support reach out to Dev Team and create a ticket in the Ticketing system i.e. SericeThen or (now)
+## 4. Tech support reach out to Dev Team and create a ticket in the Ticketing system i.e. Sericenow
 
 ## 5. Dev Team Manager gets notified by the Tech Support through Email / Self checks.
 
